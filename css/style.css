@@ -1,3 +1,15 @@
+/* Variables */
+
+:root{
+    --primary-color:#5300c8;
+    --secondary-color:#03318c;
+    --background-color:#fff;
+    --text-color:#fff;
+    --border-color:#000;
+}
+
+/* Estilos generales */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +23,10 @@ body {
     font-style: normal;
 }
 
-/*----------------------------- header ------------------------ */
+/* Header */
+
 .header {
-    background-color: #5d04d9;
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,14 +35,14 @@ body {
 
 .header__text {
     font-size: 20px;
-    color: #e5e5e5;
+    color: var(--text-color);
 }
 
 .header__img {
     width: 80px;
 }
 
-/*---------------------------- Main --------------------- */
+/* Main */
 
 .section__container {
     width: 90%;
@@ -37,21 +50,22 @@ body {
     margin: 60px auto;
     display: flex;
     flex-direction: column;
-    gap: 70px;
     justify-content: center;
+    gap: 70px;
 }
 
-/* sección formulario */
+/* Sección formulario */
+
 .section__form {
     width: 80%;
     margin: 0 auto;
 }
 
 .form__title {
+    width: 200px;
     font-size: 18px;
     text-align: center;
     margin: 0 auto 25px;
-    width: 200px;
     text-transform: uppercase;
     line-height: 24px;
 }
@@ -71,7 +85,7 @@ body {
 }
 
 .form__input {
-    border: 2px solid #03318c;
+    border: 2px solid var(--secondary-color);
     border-radius: 30px;
     padding: 12px;
 }
@@ -88,22 +102,23 @@ body {
     padding: 10px 0;
     width: 100%;
     border-radius: 8px;
-    border: 2px solid #03318c;
+    border: 2px solid var(--secondary-color);
     font-weight: bold;
     font-family: "IBM Plex Mono", monospace;
 }
 
 .form__submit-btn {
-    background-color: #03318c;
+    background-color: var(--secondary-color);
     color: #fff;
 }
 
 .form__clear-btn {
     background-color: #fff;
-    color: #03318c;
+    color: var(--secondary-color);
 }
 
 /* sección productos */
+
 .products__title {
     text-align: center;
     font-size: 18px;
@@ -125,18 +140,18 @@ body {
 }
 
 .card__item {
-    background-color: #5300c8;
+    background-color: var(--primary-color);
     font-family: "IBM Plex Mono", monospace;
-    color: #fff;
+    color: var(--text-color);
     font-weight: 400;
     font-style: normal;
     width: 130px;
     height: 185px;
-    border: 2px solid black;
+    border: 2px solid var(--border-color);
     border-radius: 10px;
 }
 .card__image {
-    border: 2px solid #000;
+    border: 2px solid var(--border-color);
     border-radius: 5px;
     width: 115px;
     height: 120px;
@@ -158,17 +173,17 @@ body {
     justify-content: space-between;
 }
 
-/* ------------------------Footer---------------------  */
+/* Footer  */
 
 footer {
-    background-color: #5300c8;
+    background-color: var(--secondary-color);
     display: flex;
     gap: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-    color: #fff;
+    color: var(--text-color);
 }
 
 .footer__img {
