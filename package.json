@@ -1,0 +1,25 @@
+{
+    "dependencies": {
+        "json-server": "^1.0.0-alpha.23"
+    },
+    "name": "alura-geek",
+    "version": "1.0.0",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "json-server --watch db.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sofia-torres-v/Alura-Geek.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sofia-torres-v/Alura-Geek/issues"
+    },
+    "homepage": "https://github.com/sofia-torres-v/Alura-Geek#readme",
+    "description": ""
+}

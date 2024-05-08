@@ -90,6 +90,12 @@ body {
     padding: 12px;
 }
 
+input::placeholder {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-family: "IBM Plex Mono", monospace;
+}
+
 .form__button-box {
     width: 100%;
     display: flex;
@@ -101,9 +107,10 @@ body {
 .form__clear-btn {
     padding: 10px 0;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 14px;
     border: 2px solid var(--secondary-color);
     font-weight: bold;
+    font-size: 16px;
     font-family: "IBM Plex Mono", monospace;
 }
 
@@ -213,7 +220,7 @@ footer {
     }
 
     .form__button-box {
-        width: 70%;
+        width: 69%;
         margin: 0 auto;
     }
 

@@ -1,0 +1,43 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "white cup",
+            "image": "/images/whiteCup.jpeg",
+            "price": 60
+        },
+        {
+            "id": 2,
+            "title": "Phone gamer",
+            "image": "/images/playGamer.png",
+            "price": 60
+        },
+        {
+            "id": 3,
+            "title": "white cup",
+            "image": "/images/whiteCup.jpeg",
+            "price": 60
+        },
+        {
+            "id": 4,
+            "title": "Phone gamer",
+            "description": "Celilar xiami",
+            "image": "/images/playGamer.png",
+            "price": 60
+        },
+        {
+            "id": 5,
+            "title": "White cup",
+            "description": "Celilar xiami",
+            "image": "/images/whiteCup.jpeg",
+            "price": 60
+        },
+        {
+            "id": 6,
+            "title": "Phone gamer",
+            "description": "Celilar xiami",
+            "image": "/images/playGamer.png",
+            "price": 60
+        }
+    ]
+}
