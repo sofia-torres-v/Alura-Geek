@@ -2,7 +2,7 @@
     "products": [
         {
             "id": 1,
-            "title": "white cup",
+            "title": "White cup",
             "image": "/images/whiteCup.jpeg",
             "price": 60
         },
@@ -14,7 +14,7 @@
         },
         {
             "id": 3,
-            "title": "white cup",
+            "title": "White cup",
             "image": "/images/whiteCup.jpeg",
             "price": 60
         },
