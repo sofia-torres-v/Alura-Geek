@@ -14,6 +14,8 @@ async function fetchSendProducts(title, price, image) {
             image: image,
         }),
     });
+    console.log("Response:", response);
+
     const convertedResponse = await response.json();
 
     return convertedResponse;
