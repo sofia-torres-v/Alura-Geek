@@ -105,6 +105,7 @@ input::placeholder {
 
 .form__submit-btn,
 .form__clear-btn {
+    cursor: pointer;
     padding: 10px 0;
     width: 100%;
     border-radius: 14px;
@@ -117,6 +118,10 @@ input::placeholder {
 .form__submit-btn {
     background-color: var(--secondary-color);
     color: #fff;
+}
+
+.card__delete-btn{
+    cursor: pointer;
 }
 
 .form__clear-btn {

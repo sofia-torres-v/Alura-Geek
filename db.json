@@ -1,127 +1,16 @@
 {
   "products": [
     {
-      "id": "1",
-      "title": "White cup",
-      "image": "/images/whiteCup.jpeg",
-      "price": 60
-    },
-    {
-      "id": "2",
-      "title": "Phone gamer",
-      "image": "/images/playGamer.png",
-      "price": 60
-    },
-    {
       "id": "3",
       "title": "White cup",
       "image": "/images/whiteCup.jpeg",
       "price": 60
     },
     {
-      "id": "4",
-      "title": "Phone gamer",
-      "description": "Celilar xiami",
-      "image": "/images/playGamer.png",
-      "price": 60
-    },
-    {
-      "id": "5",
-      "title": "White cup",
-      "description": "Celilar xiami",
-      "image": "/images/whiteCup.jpeg",
-      "price": 60
-    },
-    {
-      "id": "6",
-      "title": "Phone gamer",
-      "description": "Celilar xiami",
-      "image": "/images/playGamer.png",
-      "price": 60
-    },
-    {
-      "id": "ffd5",
-      "title": "holi",
-      "price": "4",
+      "id": "91dc",
+      "title": "prueba1",
+      "price": "5",
       "image": "https://www.clipstudio.net/wp-content/uploads/2020/02/0097_30.jpg"
-    },
-    {
-      "id": "8923",
-      "title": "uuu",
-      "price": "15",
-      "image": "https://www.clipstudio.net/wp-content/uploads/2020/02/0097_30.jpg"
-    },
-    {
-      "id": "6c54",
-      "title": "111111",
-      "price": "2",
-      "image": "https://www.clipstudio.net/wp-content/uploads/2020/02/0097_30.jpg"
-    },
-    {
-      "id": "de28",
-      "title": "dibujo",
-      "price": "14",
-      "image": "https://img.freepik.com/vector-gratis/ramo-rosas-sobre-fondo-blanco-flor-rosa-arreglo-oro-rosa_41066-3926.jpg?size=626&ext=jpg&ga=GA1.1.1687694167.1715126400&semt=sph"
-    },
-    {
-      "id": "785c",
-      "title": "",
-      "price": "",
-      "image": ""
-    },
-    {
-      "id": "062b",
-      "title": "|ex",
-      "price": "02",
-      "image": "https://img.freepik.com/vector-gratis/ramo-rosas-sobre-fondo-blanco-flor-rosa-arreglo-oro-rosa_41066-3926.jpg?size=626&ext=jpg&ga=GA1.1.1687694167.1715126400&semt=sph"
-    },
-    {
-      "id": "b2bf",
-      "title": "mensaje",
-      "price": "40",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDVglSbeFzfd-JjiDcUKaliZBJFkNPMXGoUxR7ayydDQ&s"
-    },
-    {
-      "id": "eadd",
-      "title": "mensaje",
-      "price": "40",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDVglSbeFzfd-JjiDcUKaliZBJFkNPMXGoUxR7ayydDQ&s"
-    },
-    {
-      "id": "4cc9",
-      "title": "",
-      "price": "",
-      "image": ""
-    },
-    {
-      "id": "6dfb",
-      "title": "",
-      "price": "",
-      "image": ""
-    },
-    {
-      "id": "fa74",
-      "title": "",
-      "price": "",
-      "image": ""
-    },
-    {
-      "id": "1fb5",
-      "title": "",
-      "price": "",
-      "image": ""
-    },
-    {
-      "id": "7c23",
-      "title": "",
-      "price": "",
-      "image": ""
-    },
-    {
-      "id": "d3ea",
-      "title": "",
-      "price": "",
-      "image": ""
     }
   ]
 }
