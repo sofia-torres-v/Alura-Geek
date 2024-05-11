@@ -1,46 +1,16 @@
 {
   "products": [
     {
-      "id": "3",
-      "title": "White cup",
-      "image": "/images/whiteCup.jpeg",
-      "price": 60
-    },
-    {
-      "id": "91dc",
-      "title": "prueba1",
-      "price": "5",
+      "id": "4ab3",
+      "title": "holi",
+      "price": "4",
       "image": "https://www.clipstudio.net/wp-content/uploads/2020/02/0097_30.jpg"
     },
     {
-      "id": "6c06",
-      "title": "loloo",
+      "id": "9afe",
+      "title": "phone",
       "price": "2",
-      "image": "https://encrypted-tbn0.gstatic.com/iages?q=tbn:ANd9GcSDVglSbeFzfd-JjiDcUKaliZBJFkNPMXGoUxR7ayydDQ&s"
-    },
-    {
-      "id": "45af",
-      "title": "jiji",
-      "price": "2",
-      "image": "https://encryptANd9GcSDVglSbeFzfd-JjiDcUKaliZBJFkNPMXGoUxR7ayydDQ&s"
-    },
-    {
-      "id": "24cf",
-      "title": "nnnnnnnnnn",
-      "price": "5",
       "image": "https://www.clipstudio.net/wp-content/uploads/2020/02/0097_30.jpg"
-    },
-    {
-      "id": "e8d9",
-      "title": "loi",
-      "price": "7",
-      "image": "https:vector-gratis/ramo-rosas-sobre-fondo-blanco-flor-rosa-arreglo-oro-rosa_41066-3926.jpg?size=626&ext=jpg&ga=GA1.1.1687694167.1715126400&semt=sph"
-    },
-    {
-      "id": "4b54",
-      "title": "hihi",
-      "price": "22",
-      "image": "https://www.clips"
     }
   ]
 }

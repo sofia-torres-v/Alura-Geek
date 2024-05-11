@@ -6,7 +6,7 @@ function createCard(product) {
     const priceWithDollar = `$ ${product.price}`;
 
     const card = document.createElement("li");
-    card.className = "card__item";
+    card.classList.add("card__item");
     card.dataset.productId = product.id;
     card.innerHTML = `<img
     class="card__image"
