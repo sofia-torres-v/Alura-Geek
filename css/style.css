@@ -227,6 +227,17 @@ input::placeholder {
     text-align: center;
 }
 
+.empty__message-box{
+    display: flex;
+    place-items: center;
+}
+
+.empty__message{
+    width: 450px;
+    text-align: center;
+    color: rgb(96, 88, 73);
+}
+
 /* Footer  */
 
 footer {

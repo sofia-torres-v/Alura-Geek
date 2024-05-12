@@ -59,5 +59,3 @@ formProduct.addEventListener("submit", async (e) => {
         console.error("Error al agregar productos:", error);
     }
 });
-
-// En app.js
