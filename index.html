@@ -31,7 +31,7 @@
         </header>
 
         <main>
-            <section>
+            <section class="section">
                 <div class="section__container">
                     <!------- Mi formulario ------->
                     <div class="section__form">
@@ -44,7 +44,6 @@
                                     placeholder="Precio ..."
                                     id="price"
                                     data-price
-                                    
                                 />
                                 <input
                                     type="url"
@@ -52,7 +51,6 @@
                                     placeholder="Url de la imagen ..."
                                     id="image"
                                     data-image
-                                    
                                 />
                                 <input
                                     type="text"
@@ -60,12 +58,15 @@
                                     placeholder="Nombre..."
                                     id="title"
                                     data-name
-                                   
                                 />
                             </div>
                             <div class="form__button-box">
-                                <button type="submit" class="form__submit-btn">Enviar</button>
-                                <button type="reset" class="form__clear-btn">Limpiar</button>
+                                <button type="submit" class="form__submit-btn">
+                                    Enviar
+                                </button>
+                                <button type="reset" class="form__clear-btn">
+                                    Limpiar
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -88,8 +89,10 @@
                 />
                 <span class="footer__text">Alura Geek</span>
             </div>
-            <p class="footer__info">Desarrollado por Sofía Torres</p>
-            <p class="footer__info">Alura Latam 2024</p>
+            <div class="footer__info-box">
+                <p class="footer__info">Desarrollado por Sofía Torres |</p>
+                <p class="footer__info">Alura Latam 2024</p>
+            </div>
         </footer>
 
         <script src="./js/showProducts.js" type="module"></script>

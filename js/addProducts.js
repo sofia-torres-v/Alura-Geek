@@ -71,8 +71,7 @@ function isNumberValid(valor) {
 function isUrlValid(url) {
     const urlPattern =
         /^(ftp|http|https):\/\/[\w-]+(\.[\w-]+)+([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?$/;
-    const spacePattern = /\s/;
-    return !spacePattern.test(url) && urlPattern.test(url);
+    return !urlPattern.test(url);
 }
 
 function isNameValid(textName) {
@@ -81,10 +80,23 @@ function isNameValid(textName) {
 }
 
 function showAlert(message, field) {
-    const errorMessage = document.querySelector("p");
+    const errorContainer = document.createElement("div");
+    errorContainer.classList.add("error-container");
+
+    const errorMessage = document.createElement("p");
     errorMessage.textContent = message;
     errorMessage.classList.add("text__error");
 
-    const parent = field.parentNode;
-    parent.insertBefore(errorMessage, field.nextSibling);
+    errorContainer.appendChild(errorMessage);
+
+    // Verificamos si ya existe un contenedor de mensajes de error para este campo
+    const existingErrorContainer =
+        field.parentNode.querySelector(".error-container");
+    if (existingErrorContainer) {
+        // Si ya existe un contenedor de mensajes de error, lo reemplazamos con el nuevo contenedor
+        field.parentNode.replaceChild(errorContainer, existingErrorContainer);
+    } else {
+        // Si no existe, insertamos el nuevo contenedor debajo del campo correspondiente en el formulario
+        field.parentNode.insertBefore(errorContainer, field.nextSibling);
+    }
 }
