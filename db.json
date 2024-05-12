@@ -1,16 +1,10 @@
 {
   "products": [
     {
-      "id": "8fbd",
+      "id": "5ced",
       "title": "rosas",
       "price": "5",
       "image": "https://www.clipstudio.net/wp-content/uploads/2020/02/0097_30.jpg"
-    },
-    {
-      "id": "c28b",
-      "title": "pinks ross",
-      "price": "2",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDVglSbeFzfd-JjiDcUKaliZBJFkNPMXGoUxR7ayydDQ&s"
     }
   ]
 }

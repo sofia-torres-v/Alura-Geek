@@ -2,7 +2,7 @@ import { conexionApi } from "./fetchProducts.js";
 const listData = document.querySelector("[data-list]");
 
 function createCard(product) {
-    // Formatear el precio con el símbolo del dólar delante y un espacio
+    // Formatear el precio con el símbolo dólar delante y un espacio
     const priceWithDollar = `$ ${product.price}`;
 
     const card = document.createElement("li");
@@ -46,6 +46,16 @@ async function showProducts() {
             }
         );
     });
+}
+
+export async function addProduct(title, price, image) {
+    await conexionApi.fetchSendProducts(title, price, image);
+    alert("Producto creado exitosamente");
+}
+export async function refreshProducts() {
+    const listData = document.querySelector("[data-list]");
+    listData.innerHTML = "";
+    await showProducts();
 }
 
 showProducts();
