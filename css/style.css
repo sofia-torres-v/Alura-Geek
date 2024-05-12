@@ -146,6 +146,14 @@ input::placeholder {
 
 .card__delete-btn {
     cursor: pointer;
+    font-size: 16px;
+    display: grid;
+    align-self: center;
+
+}
+.card__delete-btn:hover {
+    /* Efecto de agrandamiento */
+    transform: scale(1.2);
 }
 
 .form__clear-btn {
@@ -181,7 +189,6 @@ input::placeholder {
     font-family: "IBM Plex Mono", monospace;
     color: var(--text-color);
     font-weight: 400;
-    font-style: normal;
     width: 135px;
     height: 195px;
     border: 2px solid var(--border-color);

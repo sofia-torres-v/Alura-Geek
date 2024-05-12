@@ -1,21 +1,19 @@
 import { conexionApi } from "./fetchProducts.js";
-
 const formProduct = document.querySelector("[data-form]");
 
 formProduct.addEventListener("submit", async (e) => {
     // Prevenimos el envío del formulario por defecto
     e.preventDefault();
-    console.log("Formulario enviado", e);
 
-    // Obtenemos los valores de los campos del formulario y los limpiamos
+    // Obtenemos los valores de los campos del formulario
     const titleField = document.querySelector("[data-name]").value.trim();
     const priceField = document.querySelector("[data-price]").value.trim();
     const imageField = document.querySelector("[data-image]").value.trim();
 
     if (
-        isEmptyField(titleField) ||
-        isEmptyField(priceField) ||
-        isEmptyField(imageField)
+        emptyField(titleField) ||
+        emptyField(priceField) ||
+        emptyField(imageField)
     ) {
         showAlert(
             "Por favor, completa todos los campos.",
@@ -60,7 +58,7 @@ formProduct.addEventListener("submit", async (e) => {
 });
 
 // Funciones de validación personalizadas
-function isEmptyField(valor) {
+function emptyField(valor) {
     return valor === "";
 }
 
@@ -82,21 +80,19 @@ function isNameValid(textName) {
 function showAlert(message, field) {
     const errorContainer = document.createElement("div");
     errorContainer.classList.add("error-container");
-
     const errorMessage = document.createElement("p");
     errorMessage.textContent = message;
     errorMessage.classList.add("text__error");
-
     errorContainer.appendChild(errorMessage);
 
-    // Verificamos si ya existe un contenedor de mensajes de error para este campo
+    // Verificamos si existe un contenedor de mensajes de error para este campo
     const existingErrorContainer =
         field.parentNode.querySelector(".error-container");
     if (existingErrorContainer) {
-        // Si ya existe un contenedor de mensajes de error, lo reemplazamos con el nuevo contenedor
+        // Si existe un contenedor de mensajes error, lo reemplazamos con el nuevo contenedor
         field.parentNode.replaceChild(errorContainer, existingErrorContainer);
     } else {
-        // Si no existe, insertamos el nuevo contenedor debajo del campo correspondiente en el formulario
+        // Si no existe, insertamos el nuevo contenedor debajo del campo correspondiente
         field.parentNode.insertBefore(errorContainer, field.nextSibling);
     }
 }
