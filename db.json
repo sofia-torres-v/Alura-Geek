@@ -1,3 +1,40 @@
 {
-  "products": []
+    "products": [
+        {
+            "id": "1",
+            "title": "stormtrooper",
+            "price": "60",
+            "image": "./images/whiteCup.jpeg"
+        },
+        {
+            "id": "2",
+            "title": "Game Boy",
+            "price": "45",
+            "image": "/images/playGamer.png"
+        },
+        {
+            "id": "3",
+            "title": "stormtrooper",
+            "price": "60",
+            "image": "/images/whiteCup.jpeg"
+        },
+        {
+            "id": "4",
+            "title": "Game Boy",
+            "price": "45",
+            "image": "/images/playGamer.png"
+        },
+        {
+            "id": "5",
+            "title": "stormtrooper",
+            "price": "60",
+            "image": "/images/whiteCup.jpeg"
+        },
+        {
+            "id": "6",
+            "title": "Game Boy",
+            "price": "45",
+            "image": "/images/playGamer.png"
+        }
+    ]
 }

@@ -18,14 +18,12 @@
 
 body {
     font-family: "Press Start 2P", system-ui;
-    /* background-color: #a42222; */
     font-weight: 400;
     font-style: normal;
     min-height: 100vh;
 }
 
 /* Header */
-
 .header {
     background-color: var(--primary-color);
     display: flex;
@@ -45,7 +43,7 @@ body {
 
 /* Main */
 .section{
-    min-height: calc(100vh - 183px);
+    min-height: calc(100vh - 173px);
 }
 .section__container {
     width: 90%;
@@ -247,7 +245,7 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0;
+    padding: 15px 0;
     color: var(--text-color);
 }
 
@@ -258,6 +256,10 @@ footer {
 .footer__info-box{
     display: flex;
     gap: 10px;
+}
+
+.footer__text{
+    font-size: 14px;
 }
 
 .footer__info {
