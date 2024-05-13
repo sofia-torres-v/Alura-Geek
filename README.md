@@ -33,12 +33,14 @@ Este comando ejecutará el servidor JSON utilizando el script definido en el arc
 
 Aquí tienes algunas capturas de pantalla de la aplicación:
 
-1. **Listado de Productos en Pantallas Responsivas**:
-   ![Pantalla de inicio](./images/readme2.png)
-   
-2. **Mensajes Descriptivos para Guiar al Usuario**:
+1. **Mensajes Descriptivos para Guiar al Usuario**:
 
      ![Pantalla de inicio](./images/readme1.png)
+
+2. **Listado de Productos en Pantallas Responsivas**:
+   ![Pantalla de inicio](./images/readme2.png)
+   
+
 
 
 
