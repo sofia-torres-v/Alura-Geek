@@ -1,9 +1,7 @@
 # Desafío Alura Geek
 
 ¡Hola! Bienvenido(a) al desafío de Alura Geek.
-## Descripción del Proyecto
-
-En este proyecto, hemos creado una aplicación web llamada Alura Geek, inspirada en la tienda Alura Geek, donde podrás agregar y visualizar productos geek. La aplicación se divide en dos partes principales:
+En este proyecto, he creado una aplicación web llamada Alura Geek, donde podrás agregar y visualizar productos geek. La aplicación se divide en dos partes principales:
 
 1. **Formulario de Productos**: En la parte superior de la aplicación, encontrarás un formulario donde podrás agregar nuevos productos. El formulario incluye campos para el nombre del producto, el precio y la URL de la imagen. También hay botones para enviar el formulario y limpiar los campos.
 
@@ -11,7 +9,7 @@ En este proyecto, hemos creado una aplicación web llamada Alura Geek, inspirada
 
 ## Modelo en Figma
 
-Hemos proporcionado un modelo en Figma que puedes seguir para diseñar tu aplicación. Puedes encontrarlo [aquí](link_al_modelo_en_figma).
+Para una guía visual sobre el diseño de la aplicación, te presento el modelo en Figma. Puedes acceder a él aquí [aquí](https://www.figma.com/file/eSIemWMmHT750XP4D810yz/AluraGeek---new?type=design&node-id=0-1&mode=design&t=sPzLZwpKx6pJr0Jj-0).
 
 ## Cómo Ejecutar el Proyecto
 
@@ -35,11 +33,18 @@ Aquí tienes algunas capturas de pantalla de la aplicación:
 
 1. **Mensajes Descriptivos para Guiar al Usuario**:
 
-     ![Pantalla de inicio](./images/readme1.png)
+     ![Pantalla de inicio](./images/figma1.png)
 
 2. **Listado de Productos en Pantallas Responsivas**:
-   ![Pantalla de inicio](./images/readme2.png)
    
+   ![Pantalla de inicio](./images/figma2.png)
+
+
+## Contribuciones Futuras
+
+¡Gracias por explorar nuestro proyecto! Si te sientes inspirado(a) para contribuir o mejorar esta aplicación, ¡te damos la bienvenida a hacerlo! 
+
+
 
 
 
