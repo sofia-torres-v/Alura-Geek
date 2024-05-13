@@ -16,12 +16,11 @@ Para una guía visual sobre el diseño de la aplicación, te presento el modelo 
 Para ejecutar el proyecto localmente, sigue estos pasos:
 
 1. Clona este repositorio en tu máquina local utilizando Git:
-git clone https://github.com/tu_usuario/alura-geek.git
+git clone https://github.com/sofia-torres-v/Alura-Geek.git
    
 2. Instala las dependencias del proyecto utilizando el comando `npm install`.
 
-3. Para iniciar el servidor JSON más rápido, puedes usar el siguiente comando `npm install`:
-
+3. Para iniciar el servidor JSON más rápido, puedes usar el siguiente comando `json-server --watch db.json`:
 
 Este comando ejecutará el servidor JSON utilizando el script definido en el archivo `package.json`.
 
